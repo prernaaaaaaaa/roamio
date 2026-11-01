@@ -92,21 +92,19 @@ Open http://localhost:5173. With no API key the app still works end to end, usin
 
 ## Deploy
 
-**Option A: one service on Render (simplest, no CORS).** The Dockerfile builds the React app and serves it from the API.
+Full click-by-click guide: [docs/DEPLOY.md](docs/DEPLOY.md). Short version:
 
-1. Push this repo to GitHub.
-2. Create a free [MongoDB Atlas](https://www.mongodb.com/atlas) cluster, create a database user, allow network access, and copy the connection string.
-3. In Render choose **New → Blueprint**, select the repo (it reads `render.yaml`), and fill `GEMINI_API_KEY` and `MONGODB_URI`. `JWT_SECRET` is generated.
-4. Open the service URL. `/api/health` should report `provider: gemini`, `embeddingMode: api` and `store: mongo`.
+1. **Database:** free [MongoDB Atlas](https://www.mongodb.com/atlas) M0 cluster, one database user, network access `0.0.0.0/0`, connection string ending in `/roamio`.
+2. **API + app:** [Render](https://render.com) → **New → Blueprint** → pick this repo. It reads `render.yaml`; set `GEMINI_API_KEY` and `MONGODB_URI`. The Docker image builds the React app and serves it from the API (one URL, no CORS).
+3. **Check:** open `/api/health`. It should show `provider: gemini` and `store: mongo`.
+4. *(Optional)* host the React app on Vercel (root directory `client`, env `VITE_API_URL` = Render URL) and set `CLIENT_ORIGIN` on Render to the Vercel URL.
 
-**Option B: React on Vercel, API on Render.** Deploy the API as above. In Vercel import the repo, set the root directory to `client`, and set `VITE_API_URL` to the Render URL. On Render set `CLIENT_ORIGIN` to your Vercel URL. `client/vercel.json` handles client-side routing.
-
-Notes: Render's free tier sleeps when idle, so the first request after a while takes about a minute. Free Gemini keys have low rate limits, so set `LLM_RPM`; a plan makes 3 to 4 model calls (more if a draft needs repair).
+Render's free tier sleeps when idle, so the first request after a while takes about a minute. Free Gemini keys have low rate limits, so set `LLM_RPM`; a plan makes 3 to 4 model calls (more if a draft needs repair).
 
 ## Testing and evaluation
 
 ```bash
-npm test          # 38 tests: knowledge base, retrieval, cost engine, scheduler, tools, validation, repair, pipeline, API
+npm test          # 39 tests: knowledge base, retrieval, cost engine, scheduler, tools, validation, repair, pipeline, API
 npm run eval      # evaluation harness (mock model unless GEMINI_API_KEY is set)
 npm run eval -- --n 40 --judge     # more cases, plus an LLM-as-judge quality score
 ```

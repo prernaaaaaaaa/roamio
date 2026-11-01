@@ -5,6 +5,4 @@ dist/
 !.env.example
 *.log
 .DS_Store
-eval/results.mock.json
-eval/RESULTS.mock.md
 server/eval/*.mock.*
