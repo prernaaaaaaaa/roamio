@@ -1,0 +1,32 @@
+{
+  "city": "Kochi",
+  "state": "Kerala",
+  "aliases": ["cochin", "fort kochi", "ernakulam", "kerala"],
+  "tagline": "Colonial Fort Kochi, Kathakali nights and backwater day trips to Alleppey",
+  "bestMonths": [10, 11, 12, 1, 2, 3],
+  "avgSpeedKmph": 22,
+  "signatureFood": "Kerala sadya, appam with stew, karimeen pollichathu, prawn roast, banana chips",
+  "tiers": {
+    "budget": { "hotelPerRoomNight": 1400, "foodPerPersonDay": 500, "transportPerVehicleDay": 600 },
+    "mid": { "hotelPerRoomNight": 3800, "foodPerPersonDay": 1000, "transportPerVehicleDay": 1600 },
+    "comfort": { "hotelPerRoomNight": 9500, "foodPerPersonDay": 2300, "transportPerVehicleDay": 3200 }
+  },
+  "seasons": [
+    { "months": [11, 12, 1, 2], "label": "Cool and dry", "tempC": [22, 32], "rain": "low", "note": "Best weather for sightseeing and backwater cruises." },
+    { "months": [3, 4, 5], "label": "Hot and humid", "tempC": [26, 36], "rain": "low", "note": "Hot and sticky; schedule outdoor visits early or late." },
+    { "months": [6, 7, 8, 9, 10], "label": "Monsoon", "tempC": [23, 30], "rain": "heavy", "note": "Heavy rain with green landscapes; backwater cruises may be restricted and outdoor plans disrupted." }
+  ],
+  "places": [
+    { "id": "kochi-fishing-nets", "name": "Chinese Fishing Nets at Fort Kochi", "category": "culture", "area": "Fort Kochi", "lat": 9.9658, "lng": 76.2420, "hours": [0, 24], "durationHrs": 1, "costINR": 0, "best": "evening", "tags": ["fishing nets", "beach", "sunset", "seafood"], "desc": "Cantilevered fishing nets on the Fort Kochi waterfront, best at sunset with fresh-catch stalls nearby." },
+    { "id": "kochi-mattancherry", "name": "Mattancherry (Dutch) Palace", "category": "heritage", "area": "Mattancherry", "lat": 9.9580, "lng": 76.2597, "hours": [10, 17], "durationHrs": 1, "costINR": 10, "best": "morning", "tags": ["palace", "murals", "museum", "dutch"], "desc": "16th-century Portuguese-built palace with Kerala murals depicting Hindu epics and Kochi royal artefacts." },
+    { "id": "kochi-synagogue", "name": "Paradesi Synagogue and Jew Town", "category": "heritage", "area": "Mattancherry", "lat": 9.9575, "lng": 76.2595, "hours": [10, 17], "durationHrs": 1, "costINR": 10, "best": "morning", "tags": ["synagogue", "antiques", "spice market", "history"], "desc": "India's oldest active synagogue (1568), surrounded by antique shops and spice warehouses." },
+    { "id": "kochi-kathakali", "name": "Kathakali Performance with Makeup Demo", "category": "culture", "area": "Fort Kochi", "lat": 9.9700, "lng": 76.2430, "hours": [17, 20], "durationHrs": 1.5, "costINR": 400, "best": "evening", "tags": ["kathakali", "dance", "theatre", "kerala culture"], "desc": "Traditional dance-drama preceded by a make-up demonstration, held in the early evening." },
+    { "id": "kochi-alleppey-backwaters", "name": "Alleppey Backwater Cruise Day Trip", "category": "nature", "area": "Alleppey", "lat": 9.4981, "lng": 76.3388, "hours": [8, 17], "durationHrs": 5, "costINR": 1500, "best": "morning", "tags": ["backwaters", "houseboat", "canoe", "village life", "kerala"], "desc": "Day trip to Alleppey for a shared houseboat or canoe cruise through palm-fringed canals, with a Kerala lunch; about 1.5 hours each way." },
+    { "id": "kochi-marine-drive", "name": "Marine Drive Promenade", "category": "relaxation", "area": "Ernakulam", "lat": 9.9816, "lng": 76.2755, "hours": [0, 24], "durationHrs": 1, "costINR": 0, "best": "evening", "tags": ["promenade", "backwaters", "sunset", "walk"], "desc": "Backwater-front promenade with sunset views and evening street snacks." },
+    { "id": "kochi-lulu-mall", "name": "Lulu Mall", "category": "shopping", "area": "Edappally", "lat": 10.0270, "lng": 76.3082, "hours": [10, 22], "durationHrs": 2.5, "costINR": 0, "best": "any", "tags": ["mall", "shopping", "food court", "air-conditioned", "indoor"], "desc": "One of India's largest malls with shops, a food court and entertainment; handy on a rainy day." },
+    { "id": "kochi-sadya", "name": "Traditional Kerala Sadya Lunch", "category": "food", "area": "Ernakulam", "lat": 9.9830, "lng": 76.2820, "hours": [11.5, 15], "durationHrs": 1, "costINR": 500, "best": "any", "tags": ["sadya", "banana leaf", "vegetarian", "kerala food"], "desc": "Multi-course vegetarian feast served on a banana leaf, with payasam and local sides." },
+    { "id": "kochi-st-francis", "name": "St. Francis Church", "category": "heritage", "area": "Fort Kochi", "lat": 9.9650, "lng": 76.2432, "hours": [8, 18], "durationHrs": 0.5, "costINR": 0, "best": "morning", "tags": ["church", "vasco da gama", "colonial"], "desc": "One of India's oldest European-built churches, where Vasco da Gama was first buried." },
+    { "id": "kochi-ayurveda", "name": "Ayurvedic Massage Session", "category": "relaxation", "area": "Fort Kochi", "lat": 9.9680, "lng": 76.2420, "hours": [9, 20], "durationHrs": 1.5, "costINR": 1800, "best": "afternoon", "premium": true, "tags": ["ayurveda", "massage", "wellness", "spa"], "desc": "Traditional abhyanga massage by trained therapists; a relaxing break between sightseeing." },
+    { "id": "kochi-bolgatty", "name": "Bolgatty Island Palace Walk", "category": "nature", "area": "Mulavukad", "lat": 9.9962, "lng": 76.2670, "hours": [9, 18], "durationHrs": 1.5, "costINR": 50, "best": "afternoon", "tags": ["island", "palace", "ferry", "gardens"], "desc": "Small island with a Dutch-built palace, lawns and a short ferry ride from Ernakulam." }
+  ]
+}

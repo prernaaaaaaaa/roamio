@@ -1,0 +1,28 @@
+{
+  "name": "roamio-server",
+  "version": "1.0.0",
+  "description": "Roamio API: a grounded, budget-aware GenAI trip planner (RAG + tool calling + validated structured output)",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20.12"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test --test-concurrency=1 \"test/**/*.test.js\"",
+    "eval": "node eval/run.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.32.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.0",
+    "nanoid": "^5.0.9",
+    "zod": "^4.6.7"
+  }
+}

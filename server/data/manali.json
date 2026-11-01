@@ -1,0 +1,33 @@
+{
+  "city": "Manali",
+  "state": "Himachal Pradesh",
+  "aliases": ["kullu manali", "old manali"],
+  "tagline": "Himalayan valleys, snow adventures and cafe-lined riversides",
+  "bestMonths": [3, 4, 5, 6, 10, 11, 12],
+  "avgSpeedKmph": 20,
+  "signatureFood": "siddu, trout fish, thukpa, babru, Himachali dham",
+  "tiers": {
+    "budget": { "hotelPerRoomNight": 1200, "foodPerPersonDay": 500, "transportPerVehicleDay": 900 },
+    "mid": { "hotelPerRoomNight": 3500, "foodPerPersonDay": 1000, "transportPerVehicleDay": 2500 },
+    "comfort": { "hotelPerRoomNight": 9000, "foodPerPersonDay": 2200, "transportPerVehicleDay": 4500 }
+  },
+  "seasons": [
+    { "months": [3, 4, 5, 6], "label": "Spring and summer", "tempC": [8, 25], "rain": "low", "note": "Pleasant and open; Rohtang Pass and Atal Tunnel routes are typically accessible from May." },
+    { "months": [7, 8, 9], "label": "Monsoon", "tempC": [14, 24], "rain": "heavy", "note": "Heavy rain and landslide risk on mountain roads; adventure activities may be suspended." },
+    { "months": [10, 11], "label": "Autumn", "tempC": [2, 18], "rain": "low", "note": "Clear skies and crisp air; good for sightseeing before the snow." },
+    { "months": [12, 1, 2], "label": "Winter", "tempC": [-6, 10], "rain": "snow", "note": "Snowfall at Solang and Sissu; Rohtang is closed and roads can be icy, so allow extra travel time." }
+  ],
+  "places": [
+    { "id": "manali-hadimba", "name": "Hadimba Devi Temple", "category": "spiritual", "area": "Manali", "lat": 32.2480, "lng": 77.1802, "hours": [8, 18], "durationHrs": 1, "costINR": 0, "best": "morning", "tags": ["temple", "cedar forest", "wooden architecture"], "desc": "16th-century wooden pagoda temple set in a deodar forest." },
+    { "id": "manali-old-manali", "name": "Old Manali Cafes and Village Walk", "category": "culture", "area": "Old Manali", "lat": 32.2565, "lng": 77.1735, "hours": [0, 24], "durationHrs": 2.5, "costINR": 500, "best": "afternoon", "tags": ["cafe", "riverside", "hippie", "live music", "trout"], "desc": "Riverside village with live-music cafes, trout restaurants, apple orchards and handicraft shops." },
+    { "id": "manali-solang", "name": "Solang Valley Adventure Day", "category": "adventure", "area": "Solang", "lat": 32.3160, "lng": 77.1580, "hours": [9, 17], "durationHrs": 4, "costINR": 1500, "best": "morning", "tags": ["paragliding", "zorbing", "skiing", "snow", "ropeway"], "desc": "Meadow valley for paragliding, zorbing, ropeway rides and snow activities in winter; activity prices vary." },
+    { "id": "manali-rohtang", "name": "Rohtang Pass Excursion", "category": "nature", "area": "Rohtang", "lat": 32.3716, "lng": 77.2466, "hours": [7, 15], "durationHrs": 7, "costINR": 1800, "best": "morning", "availableMonths": [5, 6, 7, 8, 9, 10, 11], "tags": ["snow", "mountain pass", "views", "permit"], "desc": "High mountain pass with snow views; needs a vehicle permit, is weather-dependent and closed in winter." },
+    { "id": "manali-sissu-atal", "name": "Atal Tunnel and Sissu", "category": "nature", "area": "Lahaul", "lat": 32.4285, "lng": 77.1130, "hours": [8, 17], "durationHrs": 5, "costINR": 700, "best": "morning", "tags": ["tunnel", "snow", "waterfall", "scenic drive"], "desc": "Drive through the 9 km Atal Tunnel to Sissu in Lahaul valley for waterfall and snow-peak views." },
+    { "id": "manali-vashisht", "name": "Vashisht Hot Springs and Temple", "category": "relaxation", "area": "Vashisht", "lat": 32.2646, "lng": 77.1873, "hours": [6, 21], "durationHrs": 1.5, "costINR": 50, "best": "evening", "tags": ["hot spring", "temple", "bath", "village"], "desc": "Village with natural sulphur hot springs and old stone temples." },
+    { "id": "manali-mall-road", "name": "Mall Road Shopping and Street Food", "category": "shopping", "area": "Manali", "lat": 32.2432, "lng": 77.1892, "hours": [10, 22], "durationHrs": 2, "costINR": 300, "best": "evening", "tags": ["market", "woollens", "shawls", "momos", "street food"], "desc": "Pedestrian market for Kullu shawls, woollens, handicrafts and street food." },
+    { "id": "manali-jogini", "name": "Jogini Waterfall Trek", "category": "adventure", "area": "Vashisht", "lat": 32.2763, "lng": 77.1822, "hours": [7, 17], "durationHrs": 3, "costINR": 0, "best": "morning", "tags": ["trek", "waterfall", "hiking", "easy trek"], "desc": "Easy 3 km forest trail from Vashisht to a two-tier waterfall." },
+    { "id": "manali-river-rafting", "name": "River Rafting on the Beas", "category": "adventure", "area": "Kullu", "lat": 32.0980, "lng": 77.1070, "hours": [9, 16], "durationHrs": 2.5, "costINR": 1100, "best": "morning", "availableMonths": [3, 4, 5, 6, 10, 11], "tags": ["rafting", "river", "adrenaline", "water"], "desc": "Guided white-water rafting on the Beas; usually runs outside monsoon and deep winter." },
+    { "id": "manali-naggar", "name": "Naggar Castle and Roerich Art Gallery", "category": "heritage", "area": "Naggar", "lat": 32.1136, "lng": 77.1733, "hours": [9, 17], "durationHrs": 2.5, "costINR": 100, "best": "afternoon", "tags": ["castle", "art gallery", "roerich", "valley views"], "desc": "Medieval wooden-stone castle and the Nicholas Roerich art gallery with valley views." },
+    { "id": "manali-dham-lunch", "name": "Traditional Himachali Dham Lunch", "category": "food", "area": "Manali", "lat": 32.2450, "lng": 77.1860, "hours": [12, 16], "durationHrs": 1, "costINR": 500, "best": "any", "tags": ["dham", "local food", "siddu", "thali"], "desc": "Himachali lunch of siddu, madra and rice served in a traditional setting." }
+  ]
+}

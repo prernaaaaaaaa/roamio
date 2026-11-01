@@ -1,0 +1,33 @@
+{
+  "city": "Goa",
+  "state": "Goa",
+  "aliases": ["north goa", "south goa", "panaji", "panjim"],
+  "tagline": "Beaches, Portuguese heritage, seafood and nightlife on India's west coast",
+  "bestMonths": [11, 12, 1, 2, 3],
+  "avgSpeedKmph": 28,
+  "signatureFood": "fish thali, prawn balchao, bebinca, pork vindaloo, poi bread",
+  "tiers": {
+    "budget": { "hotelPerRoomNight": 1500, "foodPerPersonDay": 600, "transportPerVehicleDay": 800 },
+    "mid": { "hotelPerRoomNight": 4500, "foodPerPersonDay": 1300, "transportPerVehicleDay": 2000 },
+    "comfort": { "hotelPerRoomNight": 12000, "foodPerPersonDay": 3000, "transportPerVehicleDay": 4000 }
+  },
+  "seasons": [
+    { "months": [11, 12, 1, 2], "label": "Peak season", "tempC": [20, 33], "rain": "low", "note": "Dry, sunny and busy; water sports and nightlife are at their best. Book stays early." },
+    { "months": [3, 4, 5], "label": "Hot and humid", "tempC": [25, 36], "rain": "low", "note": "Hot, humid afternoons; beach time works best early morning and late afternoon." },
+    { "months": [6, 7, 8, 9, 10], "label": "Monsoon", "tempC": [24, 30], "rain": "heavy", "note": "Heavy rain; water sports and many beach shacks shut, rough sea, but waterfalls are at full flow." }
+  ],
+  "places": [
+    { "id": "goa-baga-beach", "name": "Baga and Calangute Beach", "category": "relaxation", "area": "North Goa", "lat": 15.5553, "lng": 73.7517, "hours": [0, 24], "durationHrs": 3, "costINR": 0, "best": "afternoon", "tags": ["beach", "sunset", "shacks", "swimming"], "desc": "Goa's busiest beach strip, with shacks, sunbeds and a lively evening scene." },
+    { "id": "goa-water-sports", "name": "Water Sports at Baga", "category": "adventure", "area": "North Goa", "lat": 15.5560, "lng": 73.7510, "hours": [9, 17.5], "durationHrs": 2, "costINR": 1800, "best": "morning", "tags": ["parasailing", "jet ski", "banana boat", "water sports"], "desc": "Package of jet ski, banana boat ride and parasailing from licensed operators on Baga beach; closed in monsoon." },
+    { "id": "goa-fort-aguada", "name": "Fort Aguada and Lighthouse", "category": "heritage", "area": "Candolim", "lat": 15.4929, "lng": 73.7737, "hours": [9.5, 18], "durationHrs": 1.5, "costINR": 25, "best": "afternoon", "tags": ["fort", "lighthouse", "portuguese", "sea views"], "desc": "17th-century Portuguese sea fort with a four-storey lighthouse and views of the Arabian Sea." },
+    { "id": "goa-old-goa", "name": "Basilica of Bom Jesus and Se Cathedral", "category": "heritage", "area": "Old Goa", "lat": 15.5009, "lng": 73.9116, "hours": [9, 18], "durationHrs": 1.5, "costINR": 0, "best": "morning", "tags": ["church", "unesco", "portuguese", "architecture"], "desc": "UNESCO-listed Baroque churches in Old Goa, including the tomb of St Francis Xavier." },
+    { "id": "goa-fontainhas", "name": "Fontainhas Latin Quarter Walk", "category": "culture", "area": "Panjim", "lat": 15.4967, "lng": 73.8312, "hours": [0, 24], "durationHrs": 1.5, "costINR": 0, "best": "morning", "tags": ["heritage walk", "colourful houses", "portuguese", "photography"], "desc": "Narrow lanes of colourful Portuguese-era houses, chapels and cafes in Panjim." },
+    { "id": "goa-dudhsagar", "name": "Dudhsagar Waterfalls Jeep Safari", "category": "adventure", "area": "Mollem", "lat": 15.3144, "lng": 74.3143, "hours": [9, 17], "durationHrs": 6, "costINR": 1500, "best": "morning", "availableMonths": [10, 11, 12, 1, 2, 3, 4, 5], "tags": ["waterfall", "jeep", "trek", "forest"], "desc": "Jeep ride through Mollem forest to the four-tier Dudhsagar falls; usually closed in peak monsoon." },
+    { "id": "goa-chapora-fort", "name": "Chapora Fort Sunset", "category": "nature", "area": "Vagator", "lat": 15.6055, "lng": 73.7367, "hours": [8, 18.5], "durationHrs": 1, "costINR": 0, "best": "evening", "tags": ["fort", "sunset", "viewpoint", "dil chahta hai"], "desc": "Ruined Portuguese fort above Vagator beach with some of north Goa's best sunset views." },
+    { "id": "goa-palolem", "name": "Palolem Beach", "category": "relaxation", "area": "South Goa", "lat": 15.0100, "lng": 74.0230, "hours": [0, 24], "durationHrs": 4, "costINR": 0, "best": "afternoon", "tags": ["beach", "kayaking", "calm", "quiet", "dolphin"], "desc": "Crescent-shaped, calmer beach in south Goa with kayaking and a relaxed vibe; a long drive from north Goa." },
+    { "id": "goa-mandovi-cruise", "name": "Mandovi River Sunset Cruise", "category": "nightlife", "area": "Panjim", "lat": 15.4989, "lng": 73.8278, "hours": [17.5, 21], "durationHrs": 1.5, "costINR": 600, "best": "evening", "tags": ["cruise", "live music", "folk dance", "sunset"], "desc": "Evening boat cruise on the Mandovi with Goan folk dance and live music." },
+    { "id": "goa-titos-lane", "name": "Tito's Lane Nightlife", "category": "nightlife", "area": "Baga", "lat": 15.5460, "lng": 73.7640, "hours": [19, 24], "durationHrs": 3, "costINR": 1500, "best": "evening", "tags": ["clubs", "bars", "party", "dj"], "desc": "Goa's best-known party street with clubs, bars and DJ nights; cover and drinks add up." },
+    { "id": "goa-panjim-food", "name": "Goan Seafood Lunch in Panjim", "category": "food", "area": "Panjim", "lat": 15.4989, "lng": 73.8278, "hours": [11.5, 15.5], "durationHrs": 1, "costINR": 700, "best": "any", "tags": ["seafood", "fish thali", "goan curry", "local food"], "desc": "Classic fish-thali lunch at a local Panjim restaurant, with xacuti, recheado fry and sol kadhi." },
+    { "id": "goa-spice-plantation", "name": "Spice Plantation Tour", "category": "nature", "area": "Ponda", "lat": 15.4020, "lng": 74.0150, "hours": [9, 16.5], "durationHrs": 3, "costINR": 600, "best": "morning", "tags": ["spices", "plantation", "lunch", "elephant"], "desc": "Guided walk through a working spice farm with a traditional Goan lunch included." }
+  ]
+}

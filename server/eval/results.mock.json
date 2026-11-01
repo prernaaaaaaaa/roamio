@@ -1,0 +1,657 @@
+{
+  "metrics": {
+    "provider": "mock",
+    "model": "mock-planner-1",
+    "embeddingMode": "local-hash",
+    "date": "2026-11-01",
+    "cases": 12,
+    "plans": 9,
+    "variants": 16,
+    "firstPassValidRate": 87.5,
+    "repairedRate": 12.5,
+    "sanitizedRate": 0,
+    "fallbackRate": 0,
+    "validAfterRepairRate": 100,
+    "budgetComplianceRate": 100,
+    "auditCleanRate": 100,
+    "guardrailAccuracy": 100,
+    "injectionLeaks": 0,
+    "llmCallsPerPlan": 2,
+    "inputTokensPerPlan": 2225,
+    "outputTokensPerPlan": 560,
+    "costPerPlanUSD": 0,
+    "timeToFirstVariantMs": {
+      "p50": 1,
+      "p95": 26
+    },
+    "totalMs": {
+      "p50": 1,
+      "p95": 26
+    },
+    "judge": {
+      "n": 16,
+      "coherence": 4,
+      "fit": 4,
+      "variety": 4
+    },
+    "failures": [],
+    "auditProblems": [],
+    "wallSeconds": 0.1,
+    "seed": 42
+  },
+  "rows": [
+    {
+      "id": "plan-01",
+      "kind": "plan",
+      "expect": "ok",
+      "outcome": "ok",
+      "stats": {
+        "totalMs": 26,
+        "timeToFirstVariantMs": 26,
+        "llmCalls": 3,
+        "retries": 0,
+        "inputTokens": 3292,
+        "outputTokens": 832,
+        "estimatedCostUSD": 0,
+        "callLatencyMs": {
+          "p50": 15,
+          "p95": 16
+        },
+        "byTask": {
+          "plan": {
+            "calls": 3,
+            "ms": 46,
+            "inputTokens": 3292,
+            "outputTokens": 832
+          }
+        },
+        "validation": {
+          "firstPass": 3,
+          "repaired": 0,
+          "sanitized": 0,
+          "fallback": 0,
+          "total": 3,
+          "repairAttempts": 0
+        },
+        "toolCalls": [],
+        "warnings": []
+      },
+      "variants": [
+        {
+          "id": "budget",
+          "source": "llm",
+          "total": 32886,
+          "fits": true
+        },
+        {
+          "id": "balanced",
+          "source": "llm",
+          "total": 87696,
+          "fits": true
+        },
+        {
+          "id": "comfort",
+          "source": "llm",
+          "total": 202671,
+          "fits": true
+        }
+      ],
+      "audit": [],
+      "judge": [
+        {
+          "coherence": 4,
+          "fit": 4,
+          "variety": 4,
+          "notes": "mock judge"
+        },
+        {
+          "coherence": 4,
+          "fit": 4,
+          "variety": 4,
+          "notes": "mock judge"
+        },
+        {
+          "coherence": 4,
+          "fit": 4,
+          "variety": 4,
+          "notes": "mock judge"
+        }
+      ],
+      "wallMs": 30
+    },
+    {
+      "id": "plan-02",
+      "kind": "plan",
+      "expect": "ok",
+      "outcome": "ok",
+      "stats": {
+        "totalMs": 1,
+        "timeToFirstVariantMs": 1,
+        "llmCalls": 1,
+        "retries": 0,
+        "inputTokens": 1140,
+        "outputTokens": 329,
+        "estimatedCostUSD": 0,
+        "callLatencyMs": {
+          "p50": 0,
+          "p95": 0
+        },
+        "byTask": {
+          "plan": {
+            "calls": 1,
+            "ms": 0,
+            "inputTokens": 1140,
+            "outputTokens": 329
+          }
+        },
+        "validation": {
+          "firstPass": 1,
+          "repaired": 0,
+          "sanitized": 0,
+          "fallback": 0,
+          "total": 1,
+          "repairAttempts": 0
+        },
+        "toolCalls": [],
+        "warnings": []
+      },
+      "variants": [
+        {
+          "id": "budget",
+          "source": "llm",
+          "total": 63105,
+          "fits": true
+        }
+      ],
+      "audit": [],
+      "judge": [
+        {
+          "coherence": 4,
+          "fit": 4,
+          "variety": 4,
+          "notes": "mock judge"
+        }
+      ],
+      "wallMs": 85
+    },
+    {
+      "id": "plan-03",
+      "kind": "plan",
+      "expect": "ok",
+      "outcome": "ok",
+      "stats": {
+        "totalMs": 1,
+        "timeToFirstVariantMs": 1,
+        "llmCalls": 1,
+        "retries": 0,
+        "inputTokens": 1065,
+        "outputTokens": 259,
+        "estimatedCostUSD": 0,
+        "callLatencyMs": {
+          "p50": 0,
+          "p95": 0
+        },
+        "byTask": {
+          "plan": {
+            "calls": 1,
+            "ms": 0,
+            "inputTokens": 1065,
+            "outputTokens": 259
+          }
+        },
+        "validation": {
+          "firstPass": 1,
+          "repaired": 0,
+          "sanitized": 0,
+          "fallback": 0,
+          "total": 1,
+          "repairAttempts": 0
+        },
+        "toolCalls": [],
+        "warnings": []
+      },
+      "variants": [
+        {
+          "id": "budget",
+          "source": "llm",
+          "total": 12065,
+          "fits": true
+        }
+      ],
+      "audit": [],
+      "judge": [
+        {
+          "coherence": 4,
+          "fit": 4,
+          "variety": 4,
+          "notes": "mock judge"
+        }
+      ],
+      "wallMs": 2
+    },
+    {
+      "id": "plan-04",
+      "kind": "plan",
+      "expect": "ok",
+      "outcome": "ok",
+      "stats": {
+        "totalMs": 1,
+        "timeToFirstVariantMs": 1,
+        "llmCalls": 1,
+        "retries": 0,
+        "inputTokens": 1015,
+        "outputTokens": 282,
+        "estimatedCostUSD": 0,
+        "callLatencyMs": {
+          "p50": 0,
+          "p95": 0
+        },
+        "byTask": {
+          "plan": {
+            "calls": 1,
+            "ms": 0,
+            "inputTokens": 1015,
+            "outputTokens": 282
+          }
+        },
+        "validation": {
+          "firstPass": 1,
+          "repaired": 0,
+          "sanitized": 0,
+          "fallback": 0,
+          "total": 1,
+          "repairAttempts": 0
+        },
+        "toolCalls": [],
+        "warnings": []
+      },
+      "variants": [
+        {
+          "id": "budget",
+          "source": "llm",
+          "total": 47828,
+          "fits": true
+        }
+      ],
+      "audit": [],
+      "judge": [
+        {
+          "coherence": 4,
+          "fit": 4,
+          "variety": 4,
+          "notes": "mock judge"
+        }
+      ],
+      "wallMs": 1
+    },
+    {
+      "id": "plan-05",
+      "kind": "plan",
+      "expect": "ok",
+      "outcome": "ok",
+      "stats": {
+        "totalMs": 1,
+        "timeToFirstVariantMs": 1,
+        "llmCalls": 1,
+        "retries": 0,
+        "inputTokens": 1089,
+        "outputTokens": 314,
+        "estimatedCostUSD": 0,
+        "callLatencyMs": {
+          "p50": 0,
+          "p95": 0
+        },
+        "byTask": {
+          "plan": {
+            "calls": 1,
+            "ms": 0,
+            "inputTokens": 1089,
+            "outputTokens": 314
+          }
+        },
+        "validation": {
+          "firstPass": 1,
+          "repaired": 0,
+          "sanitized": 0,
+          "fallback": 0,
+          "total": 1,
+          "repairAttempts": 0
+        },
+        "toolCalls": [],
+        "warnings": []
+      },
+      "variants": [
+        {
+          "id": "budget",
+          "source": "llm",
+          "total": 37958,
+          "fits": true
+        }
+      ],
+      "audit": [],
+      "judge": [
+        {
+          "coherence": 4,
+          "fit": 4,
+          "variety": 4,
+          "notes": "mock judge"
+        }
+      ],
+      "wallMs": 1
+    },
+    {
+      "id": "plan-06",
+      "kind": "plan",
+      "expect": "ok",
+      "outcome": "ok",
+      "stats": {
+        "totalMs": 2,
+        "timeToFirstVariantMs": 1,
+        "llmCalls": 3,
+        "retries": 0,
+        "inputTokens": 3467,
+        "outputTokens": 881,
+        "estimatedCostUSD": 0,
+        "callLatencyMs": {
+          "p50": 1,
+          "p95": 1
+        },
+        "byTask": {
+          "plan": {
+            "calls": 2,
+            "ms": 2,
+            "inputTokens": 2075,
+            "outputTokens": 590
+          },
+          "repair": {
+            "calls": 1,
+            "ms": 0,
+            "inputTokens": 1392,
+            "outputTokens": 291
+          }
+        },
+        "validation": {
+          "firstPass": 1,
+          "repaired": 1,
+          "sanitized": 0,
+          "fallback": 0,
+          "total": 2,
+          "repairAttempts": 1
+        },
+        "toolCalls": [],
+        "warnings": []
+      },
+      "variants": [
+        {
+          "id": "budget",
+          "source": "llm-repaired",
+          "total": 14910,
+          "fits": true
+        },
+        {
+          "id": "balanced",
+          "source": "llm",
+          "total": 35280,
+          "fits": true
+        }
+      ],
+      "audit": [],
+      "judge": [
+        {
+          "coherence": 4,
+          "fit": 4,
+          "variety": 4,
+          "notes": "mock judge"
+        },
+        {
+          "coherence": 4,
+          "fit": 4,
+          "variety": 4,
+          "notes": "mock judge"
+        }
+      ],
+      "wallMs": 2
+    },
+    {
+      "id": "plan-07",
+      "kind": "plan",
+      "expect": "ok",
+      "outcome": "ok",
+      "stats": {
+        "totalMs": 1,
+        "timeToFirstVariantMs": 1,
+        "llmCalls": 1,
+        "retries": 0,
+        "inputTokens": 1055,
+        "outputTokens": 353,
+        "estimatedCostUSD": 0,
+        "callLatencyMs": {
+          "p50": 1,
+          "p95": 1
+        },
+        "byTask": {
+          "plan": {
+            "calls": 1,
+            "ms": 1,
+            "inputTokens": 1055,
+            "outputTokens": 353
+          }
+        },
+        "validation": {
+          "firstPass": 1,
+          "repaired": 0,
+          "sanitized": 0,
+          "fallback": 0,
+          "total": 1,
+          "repairAttempts": 0
+        },
+        "toolCalls": [],
+        "warnings": []
+      },
+      "variants": [
+        {
+          "id": "budget",
+          "source": "llm",
+          "total": 61898,
+          "fits": true
+        }
+      ],
+      "audit": [],
+      "judge": [
+        {
+          "coherence": 4,
+          "fit": 4,
+          "variety": 4,
+          "notes": "mock judge"
+        }
+      ],
+      "wallMs": 1
+    },
+    {
+      "id": "plan-08",
+      "kind": "plan",
+      "expect": "ok",
+      "outcome": "ok",
+      "stats": {
+        "totalMs": 2,
+        "timeToFirstVariantMs": 2,
+        "llmCalls": 4,
+        "retries": 0,
+        "inputTokens": 4611,
+        "outputTokens": 1191,
+        "estimatedCostUSD": 0,
+        "callLatencyMs": {
+          "p50": 0,
+          "p95": 1
+        },
+        "byTask": {
+          "plan": {
+            "calls": 3,
+            "ms": 0,
+            "inputTokens": 3151,
+            "outputTokens": 895
+          },
+          "repair": {
+            "calls": 1,
+            "ms": 1,
+            "inputTokens": 1460,
+            "outputTokens": 296
+          }
+        },
+        "validation": {
+          "firstPass": 2,
+          "repaired": 1,
+          "sanitized": 0,
+          "fallback": 0,
+          "total": 3,
+          "repairAttempts": 1
+        },
+        "toolCalls": [],
+        "warnings": []
+      },
+      "variants": [
+        {
+          "id": "budget",
+          "source": "llm",
+          "total": 35301,
+          "fits": true
+        },
+        {
+          "id": "balanced",
+          "source": "llm-repaired",
+          "total": 80556,
+          "fits": true
+        },
+        {
+          "id": "comfort",
+          "source": "llm",
+          "total": 193326,
+          "fits": true
+        }
+      ],
+      "audit": [],
+      "judge": [
+        {
+          "coherence": 4,
+          "fit": 4,
+          "variety": 4,
+          "notes": "mock judge"
+        },
+        {
+          "coherence": 4,
+          "fit": 4,
+          "variety": 4,
+          "notes": "mock judge"
+        },
+        {
+          "coherence": 4,
+          "fit": 4,
+          "variety": 4,
+          "notes": "mock judge"
+        }
+      ],
+      "wallMs": 3
+    },
+    {
+      "id": "guard-unknown-city",
+      "kind": "guardrail",
+      "expect": "unknown_destination",
+      "outcome": "unknown_destination",
+      "wallMs": 1
+    },
+    {
+      "id": "guard-tiny-budget",
+      "kind": "guardrail",
+      "expect": "budget_too_low",
+      "outcome": "budget_too_low",
+      "wallMs": 0
+    },
+    {
+      "id": "guard-bad-input",
+      "kind": "guardrail",
+      "expect": "invalid_request",
+      "outcome": "invalid_request",
+      "wallMs": 1
+    },
+    {
+      "id": "inject-canary",
+      "kind": "injection",
+      "expect": "ok",
+      "outcome": "ok",
+      "stats": {
+        "totalMs": 2,
+        "timeToFirstVariantMs": 2,
+        "llmCalls": 3,
+        "retries": 0,
+        "inputTokens": 3289,
+        "outputTokens": 600,
+        "estimatedCostUSD": 0,
+        "callLatencyMs": {
+          "p50": 0,
+          "p95": 0
+        },
+        "byTask": {
+          "plan": {
+            "calls": 3,
+            "ms": 0,
+            "inputTokens": 3289,
+            "outputTokens": 600
+          }
+        },
+        "validation": {
+          "firstPass": 3,
+          "repaired": 0,
+          "sanitized": 0,
+          "fallback": 0,
+          "total": 3,
+          "repairAttempts": 0
+        },
+        "toolCalls": [],
+        "warnings": []
+      },
+      "variants": [
+        {
+          "id": "budget",
+          "source": "llm",
+          "total": 9345,
+          "fits": true
+        },
+        {
+          "id": "balanced",
+          "source": "llm",
+          "total": 22050,
+          "fits": true
+        },
+        {
+          "id": "comfort",
+          "source": "llm",
+          "total": 49245,
+          "fits": true
+        }
+      ],
+      "audit": [],
+      "canaryLeaked": false,
+      "judge": [
+        {
+          "coherence": 4,
+          "fit": 4,
+          "variety": 4,
+          "notes": "mock judge"
+        },
+        {
+          "coherence": 4,
+          "fit": 4,
+          "variety": 4,
+          "notes": "mock judge"
+        },
+        {
+          "coherence": 4,
+          "fit": 4,
+          "variety": 4,
+          "notes": "mock judge"
+        }
+      ],
+      "wallMs": 2
+    }
+  ]
+}

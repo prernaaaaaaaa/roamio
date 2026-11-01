@@ -1,0 +1,31 @@
+{
+  "city": "Varanasi",
+  "state": "Uttar Pradesh",
+  "aliases": ["banaras", "benares", "kashi"],
+  "tagline": "Ghats, Ganga aarti and street food in one of the world's oldest living cities",
+  "bestMonths": [10, 11, 12, 1, 2, 3],
+  "avgSpeedKmph": 14,
+  "signatureFood": "kachori sabzi, tamatar chaat, malaiyo, banarasi paan, thandai",
+  "tiers": {
+    "budget": { "hotelPerRoomNight": 900, "foodPerPersonDay": 400, "transportPerVehicleDay": 500 },
+    "mid": { "hotelPerRoomNight": 2800, "foodPerPersonDay": 800, "transportPerVehicleDay": 1300 },
+    "comfort": { "hotelPerRoomNight": 8000, "foodPerPersonDay": 1800, "transportPerVehicleDay": 2800 }
+  },
+  "seasons": [
+    { "months": [10, 11, 12, 1, 2], "label": "Cool season", "tempC": [6, 28], "rain": "low", "note": "Best time to visit; pleasant for boat rides, though winter mornings can be foggy and cold." },
+    { "months": [3, 4, 5, 6], "label": "Hot season", "tempC": [24, 44], "rain": "low", "note": "Very hot; visit ghats at dawn and dusk and avoid midday walks." },
+    { "months": [7, 8, 9], "label": "Monsoon", "tempC": [26, 35], "rain": "heavy", "note": "The Ganga floods the lower ghats and boat rides may be suspended; humid with frequent rain." }
+  ],
+  "places": [
+    { "id": "varanasi-sunrise-boat", "name": "Sunrise Boat Ride on the Ganges", "category": "spiritual", "area": "Dashashwamedh Ghat", "lat": 25.3076, "lng": 83.0107, "hours": [5, 8.5], "durationHrs": 1.5, "costINR": 400, "best": "morning", "tags": ["boat", "sunrise", "ghats", "ganga"], "desc": "Dawn boat ride along the ghats to see morning rituals, bathers and the waking riverfront." },
+    { "id": "varanasi-ganga-aarti", "name": "Evening Ganga Aarti at Dashashwamedh Ghat", "category": "spiritual", "area": "Dashashwamedh Ghat", "lat": 25.3076, "lng": 83.0107, "hours": [17, 21], "durationHrs": 1.5, "costINR": 0, "best": "evening", "tags": ["aarti", "ritual", "ghat", "lamps", "chanting"], "desc": "Nightly fire ritual with priests, lamps and chanting on the main ghat; arrive early for a good spot." },
+    { "id": "varanasi-kashi-vishwanath", "name": "Kashi Vishwanath Temple and Corridor", "category": "spiritual", "area": "Godowlia", "lat": 25.3109, "lng": 83.0107, "hours": [3, 23], "durationHrs": 1.5, "costINR": 0, "best": "morning", "tags": ["temple", "shiva", "jyotirlinga", "darshan"], "desc": "One of the twelve Jyotirlinga temples; expect security checks and queues, and go early." },
+    { "id": "varanasi-sarnath", "name": "Sarnath Buddhist Site and Museum", "category": "heritage", "area": "Sarnath", "lat": 25.3813, "lng": 83.0227, "hours": [9, 17], "durationHrs": 3, "costINR": 50, "best": "morning", "tags": ["buddha", "stupa", "museum", "archaeology"], "desc": "Where the Buddha gave his first sermon, with the Dhamek Stupa, ruins and an archaeological museum." },
+    { "id": "varanasi-assi-ghat", "name": "Assi Ghat Morning Walk", "category": "culture", "area": "Assi Ghat", "lat": 25.2889, "lng": 83.0066, "hours": [0, 24], "durationHrs": 1.25, "costINR": 0, "best": "morning", "tags": ["ghat", "yoga", "music", "cafes", "walk"], "desc": "Youthful southern ghat with morning yoga, classical music mornings and riverside cafes." },
+    { "id": "varanasi-bhu", "name": "BHU and Bharat Kala Bhavan", "category": "culture", "area": "BHU", "lat": 25.2677, "lng": 82.9913, "hours": [10, 16.5], "durationHrs": 1.5, "costINR": 20, "best": "afternoon", "tags": ["university", "art museum", "miniature", "campus"], "desc": "Sprawling university campus with Bharat Kala Bhavan, which has miniature paintings and sculpture." },
+    { "id": "varanasi-ramnagar", "name": "Ramnagar Fort", "category": "heritage", "area": "Ramnagar", "lat": 25.2689, "lng": 83.0270, "hours": [10, 17], "durationHrs": 1.5, "costINR": 100, "best": "afternoon", "tags": ["fort", "museum", "vintage cars", "riverside"], "desc": "18th-century riverside fort of the Kashi Naresh, with a museum of vintage cars, weapons and costumes." },
+    { "id": "varanasi-food-crawl", "name": "Banarasi Street Food Crawl", "category": "food", "area": "Godowlia", "lat": 25.3100, "lng": 83.0100, "hours": [11, 22], "durationHrs": 2, "costINR": 450, "best": "any", "tags": ["street food", "kachori", "chaat", "malaiyo", "lassi", "paan"], "desc": "Tasting walk through old-city lanes for kachori sabzi, tamatar chaat, blue lassi and malaiyo." },
+    { "id": "varanasi-silk-shopping", "name": "Banarasi Silk Weaving and Shopping", "category": "shopping", "area": "Lahurabir", "lat": 25.3250, "lng": 83.0080, "hours": [10, 20], "durationHrs": 2, "costINR": 0, "best": "afternoon", "tags": ["silk", "saree", "weaving", "handloom", "market"], "desc": "Visit a handloom workshop and showrooms for Banarasi silk sarees and brocades; prices depend on what you buy." },
+    { "id": "varanasi-temples-south", "name": "Durga Temple and Tulsi Manas Temple", "category": "spiritual", "area": "Durgakund", "lat": 25.2939, "lng": 82.9985, "hours": [5, 21], "durationHrs": 1, "costINR": 0, "best": "morning", "tags": ["temple", "tulsidas", "ramcharitmanas"], "desc": "Two historic temples near Durgakund, one for the goddess and the other tied to the author of the Ramcharitmanas." }
+  ]
+}

@@ -1,0 +1,20 @@
+# Render Blueprint: one Docker web service serving both the API and the React app.
+services:
+  - type: web
+    name: roamio
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        generateValue: true
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: MONGODB_URI
+        sync: false
+      - key: LLM_RPM
+        value: "8"
+      - key: LLM_MAX_CALLS_PER_DAY
+        value: "1000"

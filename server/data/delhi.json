@@ -1,0 +1,33 @@
+{
+  "city": "Delhi",
+  "state": "Delhi",
+  "aliases": ["new delhi", "old delhi", "dilli", "ncr"],
+  "tagline": "Mughal monuments, street food and modern museums in India's capital",
+  "bestMonths": [10, 11, 12, 1, 2, 3],
+  "avgSpeedKmph": 20,
+  "signatureFood": "butter chicken, chole bhature, parathas, kebabs, daulat ki chaat",
+  "tiers": {
+    "budget": { "hotelPerRoomNight": 1800, "foodPerPersonDay": 600, "transportPerVehicleDay": 800 },
+    "mid": { "hotelPerRoomNight": 5000, "foodPerPersonDay": 1300, "transportPerVehicleDay": 2200 },
+    "comfort": { "hotelPerRoomNight": 13000, "foodPerPersonDay": 3000, "transportPerVehicleDay": 4500 }
+  },
+  "seasons": [
+    { "months": [10, 11, 12, 1, 2], "label": "Cool season", "tempC": [5, 28], "rain": "low", "note": "Best weather for monuments; Nov-Jan can bring fog and heavy air pollution." },
+    { "months": [3, 4, 5, 6], "label": "Hot season", "tempC": [22, 44], "rain": "low", "note": "Very hot; plan monuments early morning and use air-conditioned museums at midday." },
+    { "months": [7, 8, 9], "label": "Monsoon", "tempC": [26, 36], "rain": "moderate", "note": "Humid with sudden downpours and waterlogging; keep indoor options ready." }
+  ],
+  "places": [
+    { "id": "delhi-red-fort", "name": "Red Fort", "category": "heritage", "area": "Old Delhi", "lat": 28.6562, "lng": 77.2410, "hours": [9.5, 16.5], "durationHrs": 2, "costINR": 50, "best": "morning", "tags": ["fort", "mughal", "unesco", "history"], "desc": "17th-century Mughal fortress-palace and UNESCO site; closed on Mondays." },
+    { "id": "delhi-jama-masjid", "name": "Jama Masjid", "category": "spiritual", "area": "Old Delhi", "lat": 28.6507, "lng": 77.2334, "hours": [8, 17.5], "durationHrs": 1, "costINR": 0, "best": "morning", "tags": ["mosque", "mughal", "minaret", "views"], "desc": "One of India's largest mosques; cover shoulders and legs, and climb a minaret for old-city views." },
+    { "id": "delhi-chandni-chowk-food", "name": "Chandni Chowk Food Walk", "category": "food", "area": "Old Delhi", "lat": 28.6506, "lng": 77.2303, "hours": [10, 21], "durationHrs": 2.5, "costINR": 700, "best": "any", "tags": ["street food", "parathas", "jalebi", "kebabs", "chaat"], "desc": "Tasting walk through Delhi's most famous food lanes: paratha gali, jalebi, chaat and kebabs." },
+    { "id": "delhi-humayun-tomb", "name": "Humayun's Tomb", "category": "heritage", "area": "Nizamuddin", "lat": 28.5933, "lng": 77.2507, "hours": [6, 18], "durationHrs": 1.5, "costINR": 50, "best": "morning", "tags": ["tomb", "mughal", "unesco", "gardens"], "desc": "Garden tomb that inspired the Taj Mahal, set in a restored charbagh garden." },
+    { "id": "delhi-india-gate", "name": "India Gate and Kartavya Path", "category": "culture", "area": "Central Delhi", "lat": 28.6129, "lng": 77.2295, "hours": [0, 24], "durationHrs": 1, "costINR": 0, "best": "evening", "tags": ["war memorial", "lawns", "landmark", "evening walk"], "desc": "War memorial and landscaped ceremonial boulevard that is lit up beautifully after dark." },
+    { "id": "delhi-qutub-minar", "name": "Qutub Minar Complex", "category": "heritage", "area": "Mehrauli", "lat": 28.5245, "lng": 77.1855, "hours": [7, 17], "durationHrs": 1.5, "costINR": 50, "best": "morning", "tags": ["minaret", "unesco", "iron pillar", "ruins"], "desc": "73 m victory tower from 1199 with an iron pillar and early Islamic ruins in the surrounding complex." },
+    { "id": "delhi-lotus-temple", "name": "Lotus Temple", "category": "spiritual", "area": "Kalkaji", "lat": 28.5535, "lng": 77.2588, "hours": [9, 17.5], "durationHrs": 1, "costINR": 0, "best": "afternoon", "tags": ["baha'i", "architecture", "meditation", "lotus"], "desc": "Baha'i house of worship shaped like a lotus, with a quiet meditation hall; closed on Mondays." },
+    { "id": "delhi-akshardham", "name": "Akshardham Temple and Exhibitions", "category": "spiritual", "area": "Noida Mor", "lat": 28.6127, "lng": 77.2773, "hours": [9.5, 18.5], "durationHrs": 3, "costINR": 250, "best": "afternoon", "tags": ["temple", "water show", "architecture", "exhibition"], "desc": "Huge carved-stone temple complex with exhibitions and an evening water show; no phones or cameras inside." },
+    { "id": "delhi-national-museum", "name": "National Museum", "category": "culture", "area": "Central Delhi", "lat": 28.6118, "lng": 77.2192, "hours": [10, 18], "durationHrs": 2, "costINR": 50, "best": "afternoon", "tags": ["museum", "indoor", "art", "history", "air-conditioned"], "desc": "Large museum of Indian art and archaeology from the Harappan era to modern times; a good midday indoor option." },
+    { "id": "delhi-hauz-khas", "name": "Hauz Khas Village and Ruins", "category": "nightlife", "area": "Hauz Khas", "lat": 28.5494, "lng": 77.2001, "hours": [11, 24], "durationHrs": 2.5, "costINR": 1200, "best": "evening", "tags": ["bars", "cafes", "lake", "ruins", "nightlife"], "desc": "14th-century madrasa ruins by a lake, surrounded by hip cafes, bars and boutiques." },
+    { "id": "delhi-dilli-haat", "name": "Dilli Haat Crafts Bazaar", "category": "shopping", "area": "INA", "lat": 28.5733, "lng": 77.2075, "hours": [10.5, 22], "durationHrs": 1.5, "costINR": 30, "best": "evening", "tags": ["crafts", "handicrafts", "regional food", "bazaar"], "desc": "Open-air crafts bazaar with artisan stalls and a food court serving dishes from different Indian states." },
+    { "id": "delhi-sunder-nursery", "name": "Sunder Nursery", "category": "nature", "area": "Nizamuddin", "lat": 28.5930, "lng": 77.2437, "hours": [7, 19], "durationHrs": 1.5, "costINR": 50, "best": "morning", "tags": ["gardens", "heritage park", "birds", "picnic"], "desc": "Restored heritage park with Mughal-era tombs, landscaped gardens and bird-watching." }
+  ]
+}

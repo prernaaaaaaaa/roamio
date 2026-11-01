@@ -1,0 +1,34 @@
+{
+  "city": "Jaipur",
+  "state": "Rajasthan",
+  "aliases": ["pink city", "jaipur rajasthan"],
+  "tagline": "Forts, palaces and bazaars in Rajasthan's Pink City",
+  "bestMonths": [10, 11, 12, 1, 2, 3],
+  "avgSpeedKmph": 22,
+  "signatureFood": "dal baati churma, laal maas, pyaaz kachori, ghewar",
+  "tiers": {
+    "budget": { "hotelPerRoomNight": 1200, "foodPerPersonDay": 500, "transportPerVehicleDay": 700 },
+    "mid": { "hotelPerRoomNight": 3800, "foodPerPersonDay": 1100, "transportPerVehicleDay": 1800 },
+    "comfort": { "hotelPerRoomNight": 10000, "foodPerPersonDay": 2500, "transportPerVehicleDay": 3500 }
+  },
+  "seasons": [
+    { "months": [10, 11, 12, 1, 2], "label": "Cool season", "tempC": [8, 27], "rain": "low", "note": "Best time to visit; pleasant for forts and walking. Winter mornings can be chilly." },
+    { "months": [3, 4, 5, 6], "label": "Hot season", "tempC": [25, 43], "rain": "low", "note": "Very hot afternoons; plan sightseeing early morning and evening and keep midday indoors." },
+    { "months": [7, 8, 9], "label": "Monsoon", "tempC": [24, 34], "rain": "moderate", "note": "Humid with showers; the hills around Amber turn green but outdoor plans may get interrupted." }
+  ],
+  "places": [
+    { "id": "jaipur-amber-fort", "name": "Amber Fort", "category": "heritage", "area": "Amer", "lat": 26.9855, "lng": 75.8513, "hours": [8, 17.5], "durationHrs": 3, "costINR": 200, "best": "morning", "tags": ["fort", "architecture", "photography", "mirror palace"], "desc": "Hilltop Rajput fort with the Sheesh Mahal mirror palace and sweeping views over Maota Lake." },
+    { "id": "jaipur-city-palace", "name": "City Palace", "category": "heritage", "area": "Old City", "lat": 26.9258, "lng": 75.8237, "hours": [9.5, 17], "durationHrs": 2.5, "costINR": 300, "best": "morning", "tags": ["palace", "museum", "royal", "architecture"], "desc": "Royal residence mixing Rajput and Mughal architecture with museums of textiles, weapons and costumes." },
+    { "id": "jaipur-hawa-mahal", "name": "Hawa Mahal", "category": "heritage", "area": "Old City", "lat": 26.9239, "lng": 75.8267, "hours": [9, 16.5], "durationHrs": 1, "costINR": 50, "best": "morning", "tags": ["palace", "photography", "landmark"], "desc": "Iconic five-storey pink sandstone facade with 953 small windows; best photographed in morning light." },
+    { "id": "jaipur-jantar-mantar", "name": "Jantar Mantar", "category": "culture", "area": "Old City", "lat": 26.9247, "lng": 75.8246, "hours": [9, 16.5], "durationHrs": 1.5, "costINR": 50, "best": "any", "tags": ["astronomy", "unesco", "science", "history"], "desc": "UNESCO-listed 18th-century observatory with giant stone instruments, including the world's largest stone sundial." },
+    { "id": "jaipur-nahargarh-fort", "name": "Nahargarh Fort Sunset", "category": "nature", "area": "Aravalli Hills", "lat": 26.9373, "lng": 75.8153, "hours": [10, 20], "durationHrs": 2, "costINR": 50, "best": "evening", "tags": ["sunset", "viewpoint", "fort", "city views"], "desc": "Hill fort overlooking Jaipur, famous for sunset views and a rooftop cafe scene." },
+    { "id": "jaipur-jaigarh-fort", "name": "Jaigarh Fort", "category": "heritage", "area": "Amer", "lat": 26.9857, "lng": 75.8467, "hours": [9, 17], "durationHrs": 1.5, "costINR": 100, "best": "afternoon", "tags": ["fort", "cannon", "views"], "desc": "Fortress above Amber that houses Jaivana, one of the world's largest cannons on wheels." },
+    { "id": "jaipur-albert-hall", "name": "Albert Hall Museum", "category": "culture", "area": "Ram Niwas Garden", "lat": 26.9116, "lng": 75.8195, "hours": [9, 17], "durationHrs": 1.5, "costINR": 40, "best": "afternoon", "tags": ["museum", "art", "indo-saracenic"], "desc": "Indo-Saracenic museum with a collection of carpets, miniature paintings, sculptures and an Egyptian mummy." },
+    { "id": "jaipur-bazaars", "name": "Johari and Bapu Bazaar", "category": "shopping", "area": "Old City", "lat": 26.9196, "lng": 75.8236, "hours": [10, 20.5], "durationHrs": 2, "costINR": 0, "best": "evening", "tags": ["market", "jewellery", "textiles", "block print", "handicrafts"], "desc": "Busy walled-city markets for lac bangles, gemstones, block-printed fabrics, mojari shoes and Rajasthani handicrafts." },
+    { "id": "jaipur-chokhi-dhani", "name": "Chokhi Dhani Rajasthani Village Dinner", "category": "culture", "area": "Tonk Road", "lat": 26.7738, "lng": 75.8208, "hours": [18, 23], "durationHrs": 3.5, "costINR": 1200, "best": "evening", "premium": true, "tags": ["folk dance", "dinner", "puppet show", "village", "thali"], "desc": "Ethnic village resort with folk music, dance, puppet shows, camel rides and an unlimited Rajasthani thali." },
+    { "id": "jaipur-lmb", "name": "Laxmi Misthan Bhandar (LMB) Meal", "category": "food", "area": "Johari Bazaar", "lat": 26.9186, "lng": 75.8230, "hours": [8, 23], "durationHrs": 1, "costINR": 450, "best": "any", "tags": ["sweets", "thali", "vegetarian", "street food", "ghewar"], "desc": "Century-old vegetarian restaurant known for Rajasthani sweets, kachori and thalis." },
+    { "id": "jaipur-panna-meena", "name": "Panna Meena ka Kund Stepwell", "category": "heritage", "area": "Amer", "lat": 26.9873, "lng": 75.8581, "hours": [7, 18], "durationHrs": 0.75, "costINR": 0, "best": "morning", "tags": ["stepwell", "photography", "architecture"], "desc": "Geometric 16th-century stepwell near Amber that is a favourite with photographers and is free to enter." },
+    { "id": "jaipur-jal-mahal", "name": "Jal Mahal Viewpoint", "category": "nature", "area": "Amer Road", "lat": 26.9535, "lng": 75.8460, "hours": [0, 24], "durationHrs": 0.5, "costINR": 0, "best": "any", "tags": ["lake", "palace", "photography", "viewpoint"], "desc": "Quick photo stop at the lake palace that appears to float on Man Sagar Lake." },
+    { "id": "jaipur-balloon", "name": "Hot Air Balloon Ride over Amber", "category": "adventure", "area": "Amer", "lat": 26.9900, "lng": 75.8500, "hours": [5.5, 8.5], "durationHrs": 1.5, "costINR": 12500, "best": "morning", "premium": true, "tags": ["balloon", "sunrise", "aerial", "luxury"], "desc": "Sunrise balloon flight over Amber Fort and the Aravalli foothills, subject to weather." }
+  ]
+}

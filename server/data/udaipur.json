@@ -1,0 +1,32 @@
+{
+  "city": "Udaipur",
+  "state": "Rajasthan",
+  "aliases": ["city of lakes", "lake city"],
+  "tagline": "Lakeside palaces, havelis and sunset boat rides in the City of Lakes",
+  "bestMonths": [10, 11, 12, 1, 2, 3],
+  "avgSpeedKmph": 22,
+  "signatureFood": "dal baati churma, laal maas, mawa kachori, gatte ki sabzi",
+  "tiers": {
+    "budget": { "hotelPerRoomNight": 1300, "foodPerPersonDay": 500, "transportPerVehicleDay": 700 },
+    "mid": { "hotelPerRoomNight": 4200, "foodPerPersonDay": 1100, "transportPerVehicleDay": 1800 },
+    "comfort": { "hotelPerRoomNight": 12000, "foodPerPersonDay": 2600, "transportPerVehicleDay": 3500 }
+  },
+  "seasons": [
+    { "months": [10, 11, 12, 1, 2], "label": "Cool season", "tempC": [9, 28], "rain": "low", "note": "Best time to visit: clear lakes and comfortable sightseeing weather." },
+    { "months": [3, 4, 5, 6], "label": "Hot season", "tempC": [24, 42], "rain": "low", "note": "Hot afternoons; keep sightseeing to mornings and evenings, and lakes may be lower." },
+    { "months": [7, 8, 9], "label": "Monsoon", "tempC": [23, 32], "rain": "moderate", "note": "Lakes fill up and the hills turn green; the most scenic time for Monsoon Palace, with intermittent rain." }
+  ],
+  "places": [
+    { "id": "udaipur-city-palace", "name": "City Palace Udaipur", "category": "heritage", "area": "Old City", "lat": 24.5764, "lng": 73.6835, "hours": [9.5, 17.5], "durationHrs": 2.5, "costINR": 300, "best": "morning", "tags": ["palace", "museum", "lake views", "royal"], "desc": "Sprawling lakeside palace complex with courtyards, balconies and museum galleries above Lake Pichola." },
+    { "id": "udaipur-pichola-boat", "name": "Lake Pichola Boat Ride", "category": "relaxation", "area": "Lake Pichola", "lat": 24.5714, "lng": 73.6803, "hours": [10, 18], "durationHrs": 1, "costINR": 400, "best": "evening", "tags": ["boat", "sunset", "lake", "jag mandir"], "desc": "Boat ride past the Lake Palace and Jag Mandir, best around sunset." },
+    { "id": "udaipur-jagdish-temple", "name": "Jagdish Temple", "category": "spiritual", "area": "Old City", "lat": 24.5800, "lng": 73.6838, "hours": [5, 22], "durationHrs": 0.75, "costINR": 0, "best": "morning", "tags": ["temple", "indo-aryan", "aarti"], "desc": "Intricately carved 17th-century Vishnu temple right beside City Palace." },
+    { "id": "udaipur-saheliyon", "name": "Saheliyon ki Bari", "category": "nature", "area": "Fatehpura", "lat": 24.5970, "lng": 73.6930, "hours": [9, 17], "durationHrs": 1, "costINR": 50, "best": "morning", "tags": ["garden", "fountains", "lotus pool"], "desc": "Royal garden of fountains, marble elephants and lotus pools built for palace ladies." },
+    { "id": "udaipur-fateh-sagar", "name": "Fateh Sagar Lake Promenade", "category": "nature", "area": "Fateh Sagar", "lat": 24.6000, "lng": 73.6670, "hours": [0, 24], "durationHrs": 1.5, "costINR": 0, "best": "evening", "tags": ["lake", "sunset", "street food", "walk"], "desc": "Lakeside promenade with sunset views, street food and optional boating." },
+    { "id": "udaipur-monsoon-palace", "name": "Monsoon Palace (Sajjangarh)", "category": "nature", "area": "Sajjangarh", "lat": 24.5917, "lng": 73.6347, "hours": [9, 17.5], "durationHrs": 1.5, "costINR": 250, "best": "afternoon", "tags": ["viewpoint", "sunset", "palace", "wildlife"], "desc": "Hilltop palace with panoramic views over Udaipur's lakes, popular near sunset." },
+    { "id": "udaipur-bagore-show", "name": "Dharohar Folk Dance Show at Bagore ki Haveli", "category": "culture", "area": "Old City", "lat": 24.5792, "lng": 73.6800, "hours": [10, 20.5], "durationHrs": 1.25, "costINR": 150, "best": "evening", "tags": ["folk dance", "puppet", "haveli", "show"], "desc": "Evening Rajasthani folk dance and puppet show inside an 18th-century haveli, with a small museum." },
+    { "id": "udaipur-vintage-cars", "name": "Vintage Car Museum", "category": "culture", "area": "Gulab Bagh", "lat": 24.5636, "lng": 73.6978, "hours": [9, 20], "durationHrs": 1, "costINR": 400, "best": "afternoon", "tags": ["museum", "vintage cars", "rolls royce"], "desc": "Royal garage of Rolls-Royces, Cadillacs and other classic cars once owned by the Mewar family." },
+    { "id": "udaipur-ambrai-dinner", "name": "Lakeside Dinner at Ambrai Ghat", "category": "food", "area": "Old City", "lat": 24.5775, "lng": 73.6800, "hours": [17, 23], "durationHrs": 2, "costINR": 900, "best": "evening", "premium": true, "tags": ["dinner", "lake views", "rooftop", "romantic"], "desc": "Candlelit dinner on the ghat facing the illuminated City Palace across Lake Pichola." },
+    { "id": "udaipur-shilpgram", "name": "Shilpgram Craft Village", "category": "shopping", "area": "Havala", "lat": 24.5990, "lng": 73.6360, "hours": [11, 19], "durationHrs": 1.5, "costINR": 50, "best": "afternoon", "tags": ["crafts", "village", "handicrafts", "rural"], "desc": "Open-air rural arts and crafts village with artisans, folk performances and handicraft stalls." },
+    { "id": "udaipur-ahar", "name": "Ahar Cenotaphs", "category": "heritage", "area": "Ahar", "lat": 24.5900, "lng": 73.7200, "hours": [8, 18], "durationHrs": 1, "costINR": 50, "best": "morning", "tags": ["cenotaphs", "museum", "history", "quiet"], "desc": "Royal cenotaphs of Mewar rulers and an archaeological museum, usually uncrowded." }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "city": "Rishikesh",
+  "state": "Uttarakhand",
+  "aliases": ["yoga capital", "rishikesh uttarakhand"],
+  "tagline": "Yoga, Ganga aarti, rafting and Himalayan foothills",
+  "bestMonths": [2, 3, 4, 5, 9, 10, 11],
+  "avgSpeedKmph": 22,
+  "signatureFood": "aloo puri, chole bhature, sattvic thali, cafe breakfasts",
+  "tiers": {
+    "budget": { "hotelPerRoomNight": 1000, "foodPerPersonDay": 450, "transportPerVehicleDay": 600 },
+    "mid": { "hotelPerRoomNight": 3000, "foodPerPersonDay": 900, "transportPerVehicleDay": 1500 },
+    "comfort": { "hotelPerRoomNight": 8500, "foodPerPersonDay": 2000, "transportPerVehicleDay": 3200 }
+  },
+  "seasons": [
+    { "months": [2, 3, 4, 5], "label": "Spring and early summer", "tempC": [12, 36], "rain": "low", "note": "Warm days and the main rafting season; book rafting and yoga retreats ahead." },
+    { "months": [6, 7, 8, 9], "label": "Monsoon", "tempC": [22, 34], "rain": "heavy", "note": "Rafting is typically suspended from mid-June to mid-September; landslide risk on hill roads." },
+    { "months": [10, 11, 12, 1], "label": "Cool season", "tempC": [6, 27], "rain": "low", "note": "Clear and comfortable for yoga, temples and sightseeing; chilly mornings and nights." }
+  ],
+  "places": [
+    { "id": "rishikesh-laxman-jhula", "name": "Laxman Jhula and Riverside Walk", "category": "culture", "area": "Tapovan", "lat": 30.1269, "lng": 78.3290, "hours": [0, 24], "durationHrs": 1, "costINR": 0, "best": "any", "tags": ["suspension bridge", "market", "cafes", "ganga"], "desc": "Iconic pedestrian suspension bridge over the Ganga, with cafes and craft shops on both banks." },
+    { "id": "rishikesh-ram-jhula", "name": "Ram Jhula and Parmarth Niketan", "category": "spiritual", "area": "Swarg Ashram", "lat": 30.1263, "lng": 78.3094, "hours": [5, 22], "durationHrs": 1.5, "costINR": 0, "best": "morning", "tags": ["ashram", "bridge", "temple", "ghats"], "desc": "Bridge and ashram complex with riverside ghats, meditation spaces and a large Shiva statue." },
+    { "id": "rishikesh-triveni-aarti", "name": "Evening Ganga Aarti at Triveni Ghat", "category": "spiritual", "area": "Triveni Ghat", "lat": 30.1035, "lng": 78.3037, "hours": [17, 20], "durationHrs": 1.5, "costINR": 0, "best": "evening", "tags": ["aarti", "ghat", "lamps", "chanting"], "desc": "Riverside fire ritual with bhajans and floating lamps at sunset." },
+    { "id": "rishikesh-rafting", "name": "White-Water Rafting (16 km)", "category": "adventure", "area": "Shivpuri", "lat": 30.0900, "lng": 78.4000, "hours": [8, 16], "durationHrs": 3, "costINR": 1200, "best": "morning", "availableMonths": [9, 10, 11, 12, 1, 2, 3, 4, 5, 6], "tags": ["rafting", "rapids", "river", "cliff jumping"], "desc": "Grade II-III Ganga rapids from Shivpuri to Rishikesh with optional cliff jumping; suspended in monsoon." },
+    { "id": "rishikesh-beatles-ashram", "name": "Beatles Ashram (Chaurasi Kutia)", "category": "culture", "area": "Swarg Ashram", "lat": 30.1236, "lng": 78.3225, "hours": [10, 16.5], "durationHrs": 1.5, "costINR": 150, "best": "afternoon", "tags": ["ashram", "graffiti", "meditation", "history"], "desc": "Abandoned ashram where the Beatles stayed in 1968, now covered in murals and graffiti." },
+    { "id": "rishikesh-neer-garh", "name": "Neer Garh Waterfall Trek", "category": "nature", "area": "Laxman Jhula", "lat": 30.1370, "lng": 78.3340, "hours": [8, 17], "durationHrs": 2.5, "costINR": 100, "best": "morning", "tags": ["waterfall", "trek", "pools", "forest"], "desc": "Short forest walk to a tiered waterfall with natural pools." },
+    { "id": "rishikesh-kunjapuri", "name": "Kunjapuri Temple Sunrise", "category": "spiritual", "area": "Kunjapuri", "lat": 30.1950, "lng": 78.3120, "hours": [4.5, 18], "durationHrs": 3, "costINR": 0, "best": "morning", "tags": ["sunrise", "shakti peeth", "himalaya views", "viewpoint"], "desc": "Hilltop temple reached by a steep drive, famous for sunrise views of the Himalayan range." },
+    { "id": "rishikesh-yoga-class", "name": "Ganga-side Yoga and Meditation Session", "category": "relaxation", "area": "Tapovan", "lat": 30.1250, "lng": 78.3200, "hours": [6, 19], "durationHrs": 1.5, "costINR": 500, "best": "morning", "tags": ["yoga", "meditation", "pranayama", "wellness"], "desc": "Drop-in hatha yoga and meditation class with a certified teacher near the river." },
+    { "id": "rishikesh-bungee", "name": "Bungee Jump and Giant Swing", "category": "adventure", "area": "Mohan Chatti", "lat": 30.0910, "lng": 78.4140, "hours": [9, 17], "durationHrs": 2, "costINR": 3800, "best": "morning", "premium": true, "tags": ["bungee", "swing", "adrenaline", "zipline"], "desc": "India's highest fixed-platform bungee (83 m) with a giant swing and flying fox, at premium prices." },
+    { "id": "rishikesh-cafes", "name": "Riverside Cafe Hopping", "category": "food", "area": "Tapovan", "lat": 30.1290, "lng": 78.3265, "hours": [8, 22], "durationHrs": 1.5, "costINR": 600, "best": "any", "tags": ["cafe", "vegetarian", "german bakery", "live music", "sattvic"], "desc": "Laid-back cafes serving wood-fired pizza, bakery items, smoothies and sattvic thalis with river views." }
+  ]
+}
