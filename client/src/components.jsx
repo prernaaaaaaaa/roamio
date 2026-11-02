@@ -308,7 +308,7 @@ function MapView({ v }) {
   useEffect(() => {
     if (!ref.current || mapRef.current) return undefined;
     const map = L.map(ref.current, { scrollWheelZoom: false, attributionControl: true });
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', { subdomains: 'abcd', maxZoom: 19, attribution: '© OpenStreetMap contributors © CARTO' }).addTo(map);
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', { maxZoom: 18, attribution: 'Tiles © Esri, HERE, Garmin, OpenStreetMap contributors' }).addTo(map);
     mapRef.current = map;
     layerRef.current = L.layerGroup().addTo(map);
     return () => { map.remove(); mapRef.current = null; };
