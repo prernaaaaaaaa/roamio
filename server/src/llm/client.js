@@ -58,6 +58,8 @@ export class LLMClient {
       } catch (err) {
         if (isAbort(err) || signal?.aborted) throw err;
         if (!(err instanceof LLMError) || !err.retryable || attempt >= this.maxRetries) throw err;
+        // Interactive requests must not sit through a long quota wait: fall back to the built-in planner instead.
+        if (err.code === 'rate_limited' && err.retryAfterMs > 12_000) throw err;
         retries++;
         const backoff = this.backoffBaseMs * 2 ** attempt;
         const wait = Math.min(30_000, Math.max(err.retryAfterMs || 0, backoff) + Math.random() * 250);
