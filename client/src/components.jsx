@@ -308,7 +308,7 @@ function MapView({ v }) {
   useEffect(() => {
     if (!ref.current || mapRef.current) return undefined;
     const map = L.map(ref.current, { scrollWheelZoom: false, attributionControl: true });
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18, attribution: '© OpenStreetMap contributors' }).addTo(map);
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', { subdomains: 'abcd', maxZoom: 19, attribution: '© OpenStreetMap contributors © CARTO' }).addTo(map);
     mapRef.current = map;
     layerRef.current = L.layerGroup().addTo(map);
     return () => { map.remove(); mapRef.current = null; };
