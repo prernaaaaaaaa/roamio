@@ -22,6 +22,8 @@ export function createApp(deps) {
 
   app.use(
     helmet({
+      // OpenStreetMap's tile servers reject requests that carry no Referer (helmet's default is no-referrer).
+      referrerPolicy: { policy: 'strict-origin-when-cross-origin' },
       contentSecurityPolicy: {
         directives: {
           defaultSrc: ["'self'"],
